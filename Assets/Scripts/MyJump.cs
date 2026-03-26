@@ -27,7 +27,7 @@ public class MyJump : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            power = power * Random.Range(-1,2);
+            power = power * Random.Range(1,2);
             rigidbody.AddForce(transform.up * power);
         }
 

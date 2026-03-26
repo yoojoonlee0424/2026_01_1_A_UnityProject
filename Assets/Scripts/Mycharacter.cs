@@ -23,7 +23,7 @@ public class Mycharacter : MonoBehaviour
             Health = Health - 20;                                           //처력 감소
         }
 
-        if (Input.GetKeyDown(KeyCode.RightShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Health = Health + Random.Range(-50,100);
         }
