@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MyBall : MonoBehaviour
 {
-    public Rigidbody rigidbody;
+    public new Rigidbody rigidbody;
 
     public object obj;
 

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class MyJump : MonoBehaviour
 {
-    public Rigidbody rigidbody;
+    public new Rigidbody rigidbody;
     public float power = 200f;
     public Text timeUI;
     public float Timer;
