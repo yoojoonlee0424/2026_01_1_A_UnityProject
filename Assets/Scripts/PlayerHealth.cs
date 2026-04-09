@@ -30,6 +30,14 @@ public class PlayerHealth : MonoBehaviour
                 Gameover();
             }
         }
+
+
+        if (other.CompareTag("Pit"))
+        {
+            Gameover();
+
+
+        }
     }
 
 
