@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc0935c134ea78f41a15ccdc8432150a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CubeMove
-  moveSpeed: 7
+  moveSpeed: 6
 --- !u!54 &5290996166201752750
 Rigidbody:
   m_ObjectHideFlags: 0
